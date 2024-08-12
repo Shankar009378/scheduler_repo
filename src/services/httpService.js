@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-    baseURL: "https://careercarve-scheduler.herokuapp.com/",
+    baseURL: "https://scheduler-repo.onrender.com",
     headers:{
       Accept:"application/json",
       "Content-Type":"application/json",
